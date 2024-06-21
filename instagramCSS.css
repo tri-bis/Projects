@@ -1,0 +1,424 @@
+*{
+    margin:0;
+    font-family: system-ui, -apple-system,  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:border-box;
+}
+.content{
+    margin-left:300px;
+    padding-left: 200px;
+    padding-right: 140px;
+}
+/**side**/
+.side-pannel{
+    width:300px;
+    height:810px;
+      display: block;
+      border-right:1px solid #efefef;
+      display: flex;
+      border-right: 1px solid rgb(188, 186, 186);
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      position:fixed;
+}
+.logo {
+    height: 50px;
+    width:150px;
+    background-image: url("instagram-new-logo.png");
+    background-size: cover;
+}
+.profile-pic{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    /* border:2px black solid; */
+    background-image: url("profilepic.avif");
+    background-size: cover;
+}
+.select{
+    height: 50px;
+    width:250px;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap:20px;
+    text-align: left;
+    font-size: 18px;
+}
+.select i{
+    font-size: 25px;
+}
+.select:hover{
+    background-color: #efefef;
+}
+.outer-head{
+    height: 375px;
+    width:805px;
+}
+.head{
+    height:200px;
+    width:805px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/**head1**/
+.head-picturebox{
+    height:200px;
+    width:270px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.head-pic{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    background-image: url("profilepic.avif");
+    background-size: cover;
+}
+/**head2**/
+.head-profilebox{
+     height:200px;
+     width:535px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+/**box1**/
+.username{
+    height:48px;
+    width:538;
+    font-size:22px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;   
+}
+.box{
+    border-radius: 10px;
+    font-size: 18px;
+    padding:7px 16px;
+    background-color: #efefef;
+}
+.box:hover{
+    background-color: #dbdbdb;
+}
+/**box2**/
+.record{
+    width:537px;
+    height:38px;
+    display:flex;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.followers{
+    padding-left: 70px;
+}
+.following{
+    padding-left: 70px;
+}
+/**box3**/
+.namemutuals{
+    width:537px;
+    height:38px;
+    padding-top: 5px;
+}
+.name{
+    font-size:20px;
+    font-weight: 700px;
+}
+.mutuls{
+font-size:1rem;
+color:rgb(157, 155, 155);
+display: flex;
+margin-top: 20px;
+}
+.mutuls p{
+    color: #000000;
+    padding-left: 4px;
+    padding-right:4px
+}
+/**head3**/
+.head-storybox{
+    height:175px;
+    width:980px;
+    border-color:2px solid #000000;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    border-bottom:2px solid #efefef;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+ /**story1**/
+.story1{
+    width:125px;
+    height:128px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;
+}
+.story1img_outer{
+    height:87px;
+    width:87px;
+    border-radius: 50%;
+    border:2px solid #c2bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.story1img_inner{
+    height:82px;
+    width:82px;
+    border-radius: 50%;
+    background-image: url("trees.avif");
+    background-size: cover;
+}
+.story1title{
+    font-size: 12px;
+    height:16px;
+    width:85px;/
+}
+/**story2**/
+.story2{
+    width:125px;
+    height:128px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;
+}
+.story2img_outer{
+    height:87px;
+    width:87px;
+    border-radius: 50%;
+    border:2px solid #c2bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.story2img_inner{
+    height:82px;
+    width:82px;
+    border-radius: 50%;
+    background-image: url("work.avif");
+    background-size: cover; 
+}
+.story2title{
+    font-size: 12px;
+    height:16px;
+    width:85px;/ 
+}
+
+/**story3**/
+.story3{
+    width:125px;
+    height:128px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;   
+}
+.story3img_outer{
+    height:87px;
+    width:87px;
+    border-radius: 50%;
+    border:2px solid #c2bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.story3img_inner{
+    height:82px;
+    width:82px;
+    border-radius: 50%;
+    background-image: url("hrt.avif");
+    background-size: cover;   
+}
+.story3title{
+    font-size: 12px;
+    height:16px;
+    width:85px;/
+}
+/**story4**/
+.story4{
+    width:125px;
+    height:128px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;   
+}
+.story4img_outer{
+    height:87px;
+    width:87px;
+    border-radius: 50%;
+    border:2px solid #c2bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.story4img_inner{
+    height:82px;
+    width:82px;
+    border-radius: 50%;
+    background-image: url("frd2.avif");
+    background-size: cover;
+}
+.story4title{
+    font-size: 12px;
+    height:16px;
+    width:85px; 
+}
+/**story5**/
+.story5{
+    width:125px;
+    height:128px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;    
+}
+.story5img_outer{
+    height:87px;
+    width:87px;
+    border-radius: 50%;
+    border:2px solid #c2bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.story5img_inner{
+    height:82px;
+    width:82px;
+    border-radius: 50%;
+    background-image: url("tower.avif");
+    background-size: cover;   
+}
+.story5title{
+    font-size: 12px;
+    height:16px;
+    width:85px;/  
+}
+/**story6**/
+.story6{
+    width:125px;
+    height:128px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;    
+}
+.story6img_outer{
+    height:87px;
+    width:87px;
+    border-radius: 50%;
+    border:2px solid #c2bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.story6img_inner{
+    height:82px;
+    width:82px;
+    border-radius: 50%;
+    background-image: url("memory.avif");
+    background-size: cover;    
+}
+.story6title{
+    font-size: 12px;
+    height:16px;
+    width:85px;/
+  
+}
+/**middle**/
+.middle-box{
+    height:52px;
+    width:900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.middle-box p{
+    padding:25px;
+}
+
+/**middle-postbox**/ 
+
+.row{
+    height:307px;
+    width:980px;
+    display: flex;
+    align-items: center; 
+    padding-left: 10px;     
+}
+.pic1{
+    height: 300px;
+    width:315px;
+    background-image: url("cake.avif");
+    background-size: cover;
+    margin:3px;  
+}
+.pic2{
+    height: 300px;
+    width:315px;
+    background-image: url("door.avif");
+    background-size: cover;
+    margin:3px;
+}
+.pic3{
+    height: 300px;
+    width:315px;
+    background-image: url("fun.avif");
+    background-size: cover;
+    margin:3px;
+}
+.pic4{
+    height: 300px;
+    width:315px;
+    background-image: url("sky.avif");
+    background-size: cover;
+    margin:3px;
+}
+.pic5{
+    height: 300px;
+    width:315px;
+    background-image: url("red\ hrt.avif");
+    background-size: cover;
+    margin:3px;
+}
+.pic6{
+    height: 300px;
+    width:315px;
+    background-image: url("bird.avif");
+    background-size: cover;
+    margin:3px;
+}
+ /**footer**/
+ .footer {
+    height:120px;
+    margin-top:50px;
+    text-align: center;     
+ }
+ .footer-meta{
+    font-size: 0.85rem;
+    justify-content: space-evenly;
+    color:#878686;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+ }
+ .footer p{
+    font-size: 0.85rem;
+    color:#878686;
+    padding-top: 10px;
+ }
